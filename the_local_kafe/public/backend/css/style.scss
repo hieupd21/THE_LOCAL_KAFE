@@ -1,0 +1,143 @@
+* {
+    font-family: 'Bai Jamjuree', Poppins;
+}
+
+td {
+    word-break: break-word;
+    max-width: 100%;
+}
+
+img {
+    width: 60% !important;
+    height: auto !important;
+}
+
+p {
+    word-break: break-word;
+}
+
+.font-small {
+    font-size: 14px;
+}
+
+.border-b {
+    border: 5px solid #8888b3;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.bg-lightwhite {
+    background-color: #edf1f5;
+}
+
+.bg-whitesmoke {
+    background-color: #d7d7db;
+}
+
+.bg-pink {
+    background-color: #e67e22;
+}
+
+.bg-violet {
+    background-color: #5f27cd;
+}
+
+.text-pink {
+    color: #e67e22;
+}
+
+.text-violet {
+    color: #5f27cd;
+}
+
+.text-only {
+    color: #8888b3;
+}
+
+.text-lightpurple {
+    color: #8888bd;
+}
+
+.text-lightpurple:hover {
+    color: #3232be;
+    font-weight: bold;
+}
+
+.btn-lightpurple {
+    background-color: #8888b3;
+    color: whitesmoke;
+}
+
+.btn-lightpurple:hover {
+    background-color: #4d4dbe;
+    color: whitesmoke;
+}
+
+.btn-facebook {
+    background-color: #385898;
+    color: whitesmoke;
+}
+
+.btn-facebook:hover {
+    background-color: #164299;
+    color: whitesmoke;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #8888b3;
+    border-color: #8888b3;
+    font-weight: bold;
+}
+
+.pagination .page-item .page-link {
+    color: #3232be;
+    font-weight: bold;
+}
+
+// INDEX PAGE
+.Topbar {
+    &_row {
+        &_col-4 {
+            &_ul {
+                &_li {
+                    &_sub-menu {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.menu-bar ul li:hover .sub-menu {
+    transition: all .5s;
+    display: block;
+    position: absolute;
+    z-index: 1000;
+}
+
+// DASHBOARD PAGEs
+.Main {
+    &_row {
+        &_col-3 {
+            &_CateNav {
+                &_a {
+                    &_i {
+                        width: 15%;
+                    }
+
+                    &_p {
+                        width: 85%;
+                    }
+                }
+
+                &_a:hover {
+                    border-left: 3px solid #8888b3;
+                    background-color: #d7d7db;
+                }
+            }
+        }
+    }
+}
